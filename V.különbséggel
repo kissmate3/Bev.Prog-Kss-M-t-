@@ -1,0 +1,22 @@
+//Kiss Mate
+
+#include "std_lib_facilities.h"
+
+int main()
+{
+    int a,b;
+    cout<<"Adja meg a nak az erteket: \n";
+    cin>>a;
+    cout<<"Adja meg b nak az erteket: \n";
+    cin>>b;
+
+    cout<<"\nKezdetben a= "<<a<<"   es b= "<<b<<" . \n";
+
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    cout<<"Az uj eredmeny, a= "<<a<<"  b="<<b;
+
+    keep_window_open();
+    return 0;
+}
