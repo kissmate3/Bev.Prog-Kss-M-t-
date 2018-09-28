@@ -11,4 +11,6 @@ int main()
       szamh++; 
     }
 cout<<szamh<<"\n";
+keep_window_open();
+return 0;
 }
