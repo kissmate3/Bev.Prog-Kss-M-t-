@@ -3,11 +3,12 @@
 
 int main()
 {
-  int i = 1;
-  int szamh= 0;
-    while (i != 0) {
+  int i=1;
+  int szamh=0;
+    while (i!=0)
+    {
       i<<= 1;
-      szamh++;  
- }
+      szamh++; 
+    }
 cout<<szamh<<"\n";
 }
