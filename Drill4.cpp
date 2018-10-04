@@ -1,19 +1,13 @@
-//Kiss Máté
+//Kiss MÃ¡tÃ©
 
-#include <iostream>
-#include <conio.h>
-#include <vector>
-#include <string>
-
-
-using namespace std;
+#include "std_lib_facilities.h"
 
 int main()
 {
     vector <double>v;
     double a, ossz=0, maxi, mini;
     string mert;
-    cout<<"Ha ki szeretne lepni, a mertekegyseg helyere irja a | karakter (pl 23| )\n\n";
+    cout<<"\nHa ki szeretne lepni, a mertekegyseg helyere irja a | karakter (pl 23| )\n";
 
     while (mert!="|")
     {
@@ -56,9 +50,7 @@ int main()
     for (int i=0; i<v.size(); i++){
             m=i;}
     maxi=v[m];
-    cout<<"\nA legnagyobb elem: "<<maxi;
+    cout<<"\nA legnagyobb elem: "<<maxi<<"\n";
 
-
-
-    getch();
+    keep_window_open();
 }
